@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="card" role="main">
+    <h1>Age Calculator</h1>
+    <p class="subtitle">Enter Day / Month / Year</p>
+
+    <form id="ageForm" class="input-form" novalidate>
+      <div class="input-group">
+        <label for="day">Day</label>
+        <input id="day" type="number" inputmode="numeric" placeholder="DD" min="1" max="31" />
+      </div>
+
+      <div class="input-group">
+        <label for="month">Month</label>
+        <input id="month" type="number" inputmode="numeric" placeholder="MM" min="1" max="12" />
+      </div>
+
+      <div class="input-group">
+        <label for="year">Year</label>
+        <input id="year" type="number" inputmode="numeric" placeholder="YYYY" min="1900" max="9999" />
+      </div>
+
+      <button type="submit" class="calculate">Calculate Age</button>
+    </form>
+
+    <div id="error" class="error hidden" role="alert"></div>
+
+    <div id="resultBlock" class="hidden" aria-live="polite">
+      <div class="result" role="status" aria-atomic="true">
+        <div>
+          <div id="years" class="age-number">0</div>
+          <div class="age-label">Years</div>
+        </div>
+        <div>
+          <div id="months" class="age-number">0</div>
+          <div class="age-label">Months</div>
+        </div>
+        <div>
+          <div id="days" class="age-number">0</div>
+          <div class="age-label">Days</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Visible status for debugging — shows script loaded, last actions, etc. -->
+    <div id="status" class="status">Status: waiting for input.</div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
