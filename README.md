@@ -20,7 +20,7 @@ age-calculator/
 How to Use:
 
 1. Clone this repo:
-   git clone https://github.com/your-username/age-calculator.git
+   git clone https://github.com/Maham2104/age-calculator.git
 
 2. Open index.html in your browser.
 Technologies Used:
