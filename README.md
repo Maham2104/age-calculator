@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "Age Calculator"
 
 A simple and responsive Age Calculator built using HTML, CSS, and JavaScript.  
@@ -36,3 +37,6 @@ MIT License
 
 
 
+=======
+"# Age Calculator" 
+>>>>>>> abee08e (Add README file)
