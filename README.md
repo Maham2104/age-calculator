@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 "Age Calculator"
 
 A simple and responsive Age Calculator built using HTML, CSS, and JavaScript.  
-The app allows users to input their date of birth (day, month, year) and calculates their exact **age in years, months, and days**.  
+The app allows users to input their date of birth (day, month, year) and calculates their exact age in years, months, and days.  
 
 Features:
 
